@@ -1,0 +1,6 @@
+# Dependency directories
+node_modules/
+# misc
+.DS_Store
+# template md file for ease of typing
+template.md
