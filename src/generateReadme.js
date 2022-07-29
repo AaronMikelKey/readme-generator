@@ -1,6 +1,60 @@
-const generateReadme = () => {
-	//TODO: Add function to generate readme.md from the inputs
-	return
+const generateReadme = (data) => {
+	const { title, description, installation, usage, license, contributing, tests, github, email } = data
+	return `
+	
+# ${title}
+
+## Description
+
+${description}
+
+---
+
+## Table of Contents
+
+[Installation](#Installation)
+[Usage](#Usage)
+[License](#License)
+[Contributing](#Contributing)
+[Tests](#Tests)
+[Questions](#Questions)
+
+---
+
+##Installation
+
+${installation}
+
+---
+
+## Usage
+
+${usage}
+
+---
+
+## License
+
+${license}
+
+---
+
+## Contributing
+
+${contributing}
+
+---
+## Tests
+${tests}
+
+---
+
+## Questions?
+
+For any questions, please visit my Github: [github.com/${github}](https://github.com/${github})
+
+or send me an email at [${email}](mailto:${email})
+`
 }
 
-module.exports = generateReadme
+export default generateReadme
