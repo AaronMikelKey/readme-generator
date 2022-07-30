@@ -1,8 +1,7 @@
 const generateReadme = (data) => {
 	const { title, description, installation, usage, license, contributing, tests, github, email } = data
-	return `
-	
-# ${title}
+	//TODO: add a badge for that license near the top of the README
+	return `# ${title}
 
 ## Description
 
@@ -13,15 +12,20 @@ ${description}
 ## Table of Contents
 
 [Installation](#Installation)
+
 [Usage](#Usage)
+
 [License](#License)
+
 [Contributing](#Contributing)
+
 [Tests](#Tests)
+
 [Questions](#Questions)
 
 ---
 
-##Installation
+## Installation
 
 ${installation}
 
