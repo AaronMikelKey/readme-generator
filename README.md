@@ -38,7 +38,7 @@ To use this app, run 'npm start' or 'node app.js'.
 
 ## License
 
-ISC
+[ISC License](https://opensource.org/licenses/ISC)
 
 ---
 
