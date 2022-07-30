@@ -2,6 +2,8 @@
 
 ## Description
 
+[![License: ISC](https://img.shields.io/badge/License-ISC-blue.svg)](https://opensource.org/licenses/ISC)
+
 This is a CLI app built with NodeJS and the Inquirer package that takes user prompts from a command line and outputs them into a README.md file.
 
 ---
@@ -46,7 +48,7 @@ Feel free to contribute by submitting a pull request with new features or to cor
 
 ---
 ## Tests
-undefined
+I have not written any tests for this project.
 
 ---
 

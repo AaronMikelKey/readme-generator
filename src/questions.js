@@ -1,5 +1,3 @@
-//title , tableOfContents, installation, usage, license, contributing, tests, questions
-
 const throwError = (errorMessage) => {throw Error(`Please provide ${errorMessage}.`)} // Function is needed to use in a ternary
 
 const questions = [
@@ -79,7 +77,6 @@ const questions = [
 				return true
 			}
 		},
-		//TODO: Add rest of the questions
 	]
 
 	export default questions
