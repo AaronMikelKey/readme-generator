@@ -4,3 +4,5 @@ node_modules/
 .DS_Store
 # template md file for ease of typing
 template.md
+# output folder so README.md isn't overwritten
+/dist

@@ -6,7 +6,10 @@ import questions from './src/questions.js'
 
 inquirer.prompt(questions)
 	.then((data) => {	
-		fs.writeFile('./README.md', generateReadme(data), err => {
+		// dir can be changed to output the file wherever you want
+		const dir = './dist'
+		if (!fs.existsSync(dir)) {fs.mkdirSync(dir)}
+		fs.writeFile(dir + '/README.md', generateReadme(data), err => {
 			if (err) throw new Error(err)
 			console.log('README complete!')
 		})
