@@ -6,6 +6,8 @@
 
 This is a CLI app built with NodeJS and the Inquirer package that takes user prompts from a command line and outputs them into a README.md file.
 
+[You can see a demo of this app here.](https://drive.google.com/file/d/119NjkYM8IXkTGcVuoVRi6EqBjZhhRc93/view?usp=sharing)
+
 ---
 
 ## Table of Contents
